@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Home from './components/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ViewApp from './components/ViewApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,8 +15,11 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/view-applications" element={<ViewApp />} />
+
       </Routes>
       </BrowserRouter>
+      
     </>
   )
 }
