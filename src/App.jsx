@@ -24,10 +24,7 @@ function App() {
 
         <Route path="/add-applications" element={<AddApp />} />
         <Route path="/view-scholarships" element={<ViewScholar />} />
-        
-        
-
-        <Route path="/add-scholarship" element={<AddScholar />} />
+        <Route path="/apply-scholarship" element={<AddScholar />} />
         <Route path="/view-students" element={<ViewStud />} />
         <Route path="/add-student" element={<AddStudent />} />
       </Routes>
