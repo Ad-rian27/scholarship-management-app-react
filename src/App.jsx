@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Home from './components/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import AddApp from './components/AddApp'
 import ViewScholar from './components/ViewScholar'
 import AddScholar from './components/AddScholar'
 import ViewStud from './components/ViewStud'
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/add-applications" element={<AddApp />} />
         <Route path="/view-scholarships" element={<ViewScholar />} />
         
         
