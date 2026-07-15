@@ -48,7 +48,7 @@ const Navigation = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/add-scholarship">
+                <Link className="nav-link" to="/apply-scholarship">
                   Add Scholarship
                 </Link>
               </li>
@@ -60,8 +60,8 @@ const Navigation = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/apply-scholarship">
-                  Apply Scholarship
+                <Link className="nav-link" to="/add-applications">
+                  Add Applications
                 </Link>
               </li>
 

@@ -3,8 +3,10 @@ import Navigation from "./Navigation";
 
 const Home = () => {
   return (
+    <div>
+              <Navigation />
     <div className="container py-5">
-        <Navigation />
+
 
       {/* Welcome Section */}
       <div className="text-center mb-5">
@@ -83,6 +85,7 @@ const Home = () => {
         </p>
       </footer>
 
+    </div>
     </div>
   );
 };
