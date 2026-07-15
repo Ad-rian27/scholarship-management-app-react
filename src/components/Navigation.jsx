@@ -66,6 +66,12 @@ const Navigation = () => {
               </li>
 
               <li className="nav-item">
+                <Link className="nav-link" to="/add-applications">
+                  Add Applications
+                </Link>
+              </li>
+
+              <li className="nav-item">
                 <Link className="nav-link" to="/view-applications">
                   View Applications
                 </Link>
