@@ -6,6 +6,8 @@ import './App.css'
 import Home from './components/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddScholar from './components/AddScholar'
+import ViewStud from './components/ViewStud'
+import AddStudent from './components/AddStudent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add-scholarship" element={<AddScholar />} />
+        <Route path="/view-students" element={<ViewStud />} />
+        <Route path="/add-student" element={<AddStudent />} />
       </Routes>
       </BrowserRouter>
     </>
